@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Use the latest Python runtime as a parent image
-FROM python:latest
+FROM python:3.12.0
 
 # Install Node.js and npm
 RUN apt-get update && \
